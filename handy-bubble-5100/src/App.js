@@ -6,8 +6,8 @@ import MiniNavbar from "./Components/MiniNavbar";
 function App() {
   return (
     <Box className="App">
-      {/* <MiniNavbar />
-      <MainNavbar /> */}
+      <MiniNavbar />
+      <MainNavbar />
     </Box>
   );
 }
