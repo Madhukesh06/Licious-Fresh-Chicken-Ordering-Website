@@ -1,13 +1,11 @@
 import { Box } from "@chakra-ui/react";
 import "./App.css";
-import MainNavbar from "./Components/MainNavbar";
-import MiniNavbar from "./Components/MiniNavbar";
+import HomePage from "./Components/HomePage";
 
 function App() {
   return (
     <Box className="App">
-      {/* <MiniNavbar />
-      <MainNavbar /> */}
+      <HomePage />
     </Box>
   );
 }
