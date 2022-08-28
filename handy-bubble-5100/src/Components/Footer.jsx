@@ -8,13 +8,14 @@ export default function Footer() {
             style={{
                 clear: "both",
                 position: "relative",
-                height: "200px",
+                // height: "200px",
                 margin: "auto",
-                marginTop: "200px",
+                marginTop: "100px",
                 width: "70rem",
                 display: "flex",
                 justifyContent: "space-between",
                 gap: "2rem",
+                marginBottom: "2rem"
             }}
         >
             <Box>

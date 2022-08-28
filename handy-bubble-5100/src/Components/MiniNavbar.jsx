@@ -17,7 +17,6 @@ const MiniNavbar = () => {
     <Box
       style={{
         display: "flex",
-
         padding: "0.8px",
         alignContent: "center",
         justifyContent: "space-between",

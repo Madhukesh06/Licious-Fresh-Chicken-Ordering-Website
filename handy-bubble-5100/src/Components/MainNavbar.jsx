@@ -4,7 +4,6 @@ import {
     Input,
     InputGroup,
     InputLeftElement,
-
     Text,
 } from "@chakra-ui/react";
 import React from "react";
@@ -22,10 +21,11 @@ export default function MainNavbar() {
                 justifyContent: "space-between",
                 padding: "1rem",
                 boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-                // border: "1px solid red",
+
                 position: "fixed",
                 top: "1.6rem",
                 width: "100%",
+                zIndex: 500
             }}
         >
 

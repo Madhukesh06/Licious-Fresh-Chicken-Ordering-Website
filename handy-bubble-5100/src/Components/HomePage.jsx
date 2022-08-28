@@ -66,7 +66,7 @@ let data = [{
 
 export default function HomePage() {
     return (
-        <Box>
+        <Box mt="6.5rem">
             <Image src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_62e142fbed5a8" />
             <br />
             <br />
