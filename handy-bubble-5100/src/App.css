@@ -1,5 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+}
+
+.scroll::-webkit-scrollbar {
+      display: none;
 }
 
 .App-logo {
