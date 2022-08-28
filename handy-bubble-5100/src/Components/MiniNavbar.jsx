@@ -1,18 +1,23 @@
 import {
   Box,
   Divider,
+
   Image,
   Menu,
   MenuButton,
   MenuItem,
   MenuList,
 } from "@chakra-ui/react";
+// 1. Import
+
+
 
 const MiniNavbar = () => {
   return (
     <Box
       style={{
         display: "flex",
+
         padding: "0.8px",
         alignContent: "center",
         justifyContent: "space-between",
@@ -20,6 +25,10 @@ const MiniNavbar = () => {
         fontSize: "1rem",
         alignItem: "center",
         fontFamily: "sans-serif",
+        position: "fixed",
+        top: 0,
+        width: "100%",
+        zIndex: 1030
 
       }}
     >
@@ -46,8 +55,10 @@ const MiniNavbar = () => {
           <Menu>
             {({ isOpen }) => (
               <>
-                <MenuButton mr="8rem" isActive={isOpen}>
-                  {isOpen ? <li>Contact Us</li> : <li>Contact Us</li>}
+                <MenuButton
+                  mr="8rem"
+                  isActive={isOpen}>
+                  {isOpen ? <li>Contact Us </li> : <li>  Contact Us  </li>}
                 </MenuButton>
                 <MenuList>
                   <MenuItem>1800-4190-786</MenuItem>

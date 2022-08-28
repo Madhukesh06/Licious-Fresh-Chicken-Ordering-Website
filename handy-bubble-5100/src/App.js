@@ -1,5 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import "./App.css";
+
 import MainNavbar from "./Components/MainNavbar";
 import MiniNavbar from "./Components/MiniNavbar";
 
